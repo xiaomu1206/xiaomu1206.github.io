@@ -1,0 +1,48 @@
+/* 自定义文章内容字体 */
+/* 只对文章内容区域设置字体，不影响导航、侧边栏等其他区域 */
+
+/* 文章主体内容字体 */
+.post-body,
+.post-content,
+.article-content {
+  font-family: 'Georgia', 'Times New Roman', 'SimSun', serif !important;
+  font-size: 20px !important;
+  line-height: 1.8 !important;
+}
+
+/* 段落字体设置 */
+.post-body p {
+  font-family: 'Georgia', 'Times New Roman', 'SimSun', serif !important;
+  margin-bottom: 1em;
+}
+
+/* 引用块字体设置 */
+.post-body blockquote {
+  font-family: 'Georgia', 'Times New Roman', serif !important;
+  font-style: italic;
+}
+
+/* 代码块内字体设置 */
+.post-body code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+/* 加粗文本 */
+.post-body strong {
+  font-weight: bold;
+}
+
+/* 强调文本 */
+.post-body em {
+  font-style: italic;
+}
+
+/* 标题字体（可选，如果想与正文有所区分） */
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  font-family: 'Arial', 'Helvetica', 'PingFang SC', 'Hiragino Sans GB', sans-serif !important;
+}
